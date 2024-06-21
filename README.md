@@ -19,13 +19,13 @@ I will be regularly updating this repository with new tasks and their correspond
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/internship-tasks.git
+   git clone  git clone https://github.com/balananujith/Brainwave-Matrix-Solutions.git
 
 2. **Navigate to the task directory:**
 
    For example : if there is a task of todo-list
       ```bash
-      cd internship-tasks/todo-list
+      cd Brainwave-Matrix-Solutions/todo-list
       
 3. **Open the index.html file in your browser to view the To-Do List application.**
 ## Stay Updated
