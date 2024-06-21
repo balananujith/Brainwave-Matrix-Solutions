@@ -13,7 +13,7 @@ Welcome to the To-Do List Application repository! This simple web application al
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/todo-list.git
+   https://github.com/balananujith/Brainwave-Matrix-Solutions.git
 
 2. **Navigate to the project directory:**
    ```bash
