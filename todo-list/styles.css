@@ -74,6 +74,18 @@ li button {
     border-radius: 5px;
 }
 
+li .edit-btn {
+    background-color: #f0ad4e;
+}
+
+li .edit-btn:hover {
+    background-color: #ec971f;
+}
+
+li .remove-btn:hover {
+    background-color: #c9302c;
+}
+
 li button:hover {
     background-color: #c9302c;
 }
