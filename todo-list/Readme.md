@@ -28,6 +28,11 @@ Welcome to the To-Do List Application repository! This simple web application al
   - **Edit a Task:** Click the "Edit" button next to a task to modify its name.
   - **Remove a Task:** Click the "Remove" button next to a task to delete it from the list.
 
+## Access the Hosted Application
+
+You can also access the hosted version of the To-Do List application directly in your browser:
+[To-Do List Application](https://balananujith-todo.netlify.app/)
+
 ## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or a pull request.
 
