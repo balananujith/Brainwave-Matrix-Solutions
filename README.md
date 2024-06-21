@@ -1,5 +1,3 @@
-# Brainwave-Matrix-Solutions
-# Brainwave-Matrix-Solutions
 
 # Internship Tasks Repository
 
