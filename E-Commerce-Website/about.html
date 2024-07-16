@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - About Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom Styles */
+        .about-section {
+            padding: 100px 0;
+            background-color: #f8f9fa;
+        }
+        .about-heading {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .about-heading h2 {
+            font-size: 3rem;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 20px;
+            position: relative;
+            animation: slideInLeft 1s ease;
+        }
+        .about-heading p {
+            font-size: 1.5rem;
+            color: #666;
+            font-style: italic;
+            animation: slideInRight 1s ease;
+        }
+        .about-content {
+            margin-top: 50px;
+        }
+        .about-content .row {
+            align-items: center;
+        }
+        .about-content .col-md-6 {
+            animation: fadeInUp 1s ease;
+        }
+        @keyframes slideInLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes slideInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(100px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white">
+        <div class="container">
+            <h1 class="display-4">ShopEase</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signin.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="about-section">
+            <div class="container">
+                <div class="about-heading">
+                    <h2>About Us</h2>
+                    <p>Welcome to ShopEase, your number one source for all things [product, ie: electronics, fashion, home decor]. We're dedicated to providing you the best of [product], with a focus on dependability, customer service, and uniqueness.</p>
+                </div>
+                <div class="row about-content">
+                    <div class="col-md-6">
+                        <img src="https://via.placeholder.com/600x400" class="img-fluid rounded" alt="Our Store">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Our Story</h3>
+                        <p>Founded in [year] by [founder name], ShopEase has come a long way from its beginnings in [starting location]. When [founder name] first started out, their passion for [brand message - ie: "eco-friendly cleaning products"] drove them to start their own business.</p>
+                        <h3>Our Mission</h3>
+                        <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+                        <p>Sincerely,</p>
+                        <p>[Founder Name]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

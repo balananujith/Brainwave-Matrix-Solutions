@@ -90,4 +90,28 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // Sign-up functionality
+    const signupForm = document.getElementById('signup-form');
+    const signupMessage = document.getElementById('signup-message');
+
+    if (signupForm) {
+        signupForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = document.getElementById('signup-email').value;
+            const password = document.getElementById('signup-password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+
+            if (password === confirmPassword) {
+                signupMessage.textContent = 'Successfully signed up!';
+                signupMessage.style.color = 'green';
+                // Redirect to sign-in page or perform other actions
+                setTimeout(() => {
+                    window.location.href = 'signin.html';
+                }, 1000);
+            } else {
+                signupMessage.textContent = 'Passwords do not match.';
+            }
+        });
+    }
 });
