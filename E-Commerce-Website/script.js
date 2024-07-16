@@ -66,4 +66,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     renderProducts(products);
     filterProducts();
+
+    // Sign-in functionality
+    const signinForm = document.getElementById('signin-form');
+    const signinMessage = document.getElementById('signin-message');
+
+    if (signinForm) {
+        signinForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // For simplicity, let's just check if email and password are not empty
+            if (email && password) {
+                signinMessage.textContent = 'Successfully signed in!';
+                signinMessage.style.color = 'green';
+                // Redirect to home page or perform other actions
+                setTimeout(() => {
+                    window.location.href = 'index.html';
+                }, 1000);
+            } else {
+                signinMessage.textContent = 'Please enter a valid email and password.';
+            }
+        });
+    }
 });
